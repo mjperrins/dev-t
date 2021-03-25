@@ -223,11 +223,7 @@ variable "sonarqube_mode" {
   description = "The mode of operation for the module (setup)"
   default = ""
 }
-variable "swaggereditor_image_tag" {
-  type = variable "image_tag" {   description = "The image version tag to use"   default     = "v3.8.0" }
-  description = "The image version tag to use"
-  default = ""
-}
+
 variable "swaggereditor_enable_sso" {
   type = bool
   description = "Flag indicating if oauth should be applied (only available for OpenShift)"
